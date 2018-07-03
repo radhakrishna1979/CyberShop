@@ -1,0 +1,19 @@
+.panel{
+    border:1px solid lightgray;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.panel-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    position:relative;
+    left:32%;
+
+  }
+
+  .panel{
+      background-color:rgb(242, 244, 247);
+  }

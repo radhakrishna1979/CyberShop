@@ -1,0 +1,29 @@
+
+<div class="orders">
+<div class="header">
+   <h2> THANK YOU FOR <br>
+       SHOPPING WITH US
+   </h2> 
+</div>
+
+<br> 
+<div class="details">
+    <div *ngIf ="orderInfo$ |async as order"> 
+      <p id="orderId">Your OrderId is <strong>{{ orderId }}</strong></p>
+       <p> Shipping details of your Order: <br> 
+          Name :<strong>{{order.shipping.name }}</strong><br>            
+          Shipping Address: <br>
+          {{order.shipping.addressLine1 || order.shipping.addressLine2 }} <br>
+          {{order.shipping.city }} ,{{order.shipping.state }}<br> </p>
+         <br>
+    </div>
+</div>
+
+ <div class="footer">
+    <p> Please share your experience and feedback <a routerLink ='/feedback'> <strong>here</strong> </a></p> <br>
+    <a  style="color:crimson" class="nav-link" routerLink='/categories'><strong>Continue Shopping >></strong> </a> 
+</div>
+</div>
+
+
+

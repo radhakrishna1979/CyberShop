@@ -1,0 +1,39 @@
+div.header h2{
+    text-align: center;
+    color:rgb(46, 33, 2);
+    font-size:42px;
+    padding:10px;
+    font-family: Helvetica;
+    text-shadow: 2px 3px 5px rgb(248, 44, 44); 
+}
+
+div.details {
+    text-align: center;
+    color:rgb(2, 2, 59);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+}
+
+a{
+    text-align: right;
+}
+
+h3{
+padding:10px;
+}
+
+div.footer p{ 
+    color:rgb(9, 61, 1);
+    font-family: Comic Sans MS;
+    text-align: center;
+
+}
+
+div.footer p a{
+    font-size:28px;
+}
+div.orders{
+    background-image : url('p6.jpg');
+    margin-top:70px;
+}
+

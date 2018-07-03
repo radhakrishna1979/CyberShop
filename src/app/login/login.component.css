@@ -1,0 +1,24 @@
+.card{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color:rgb(242, 244, 247);
+ }
+ 
+
+.container{
+    position:relative;
+    left:32%;
+  }
+
+  h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:5px;
+   }
+
+  .hdivider{
+   margin-top:5px;
+   margin-bottom:5px;
+   height:1px;
+   width:100%;
+   border-top:1px solid gray;
+  }

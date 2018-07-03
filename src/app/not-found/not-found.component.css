@@ -1,0 +1,13 @@
+h1{
+    text-align:center;
+    color:red;
+    font-size:60px;
+    padding:10px;
+}
+
+p{
+    text-align:center;
+    color:blue;
+    font-size:25px; 
+    padding:10px;
+}

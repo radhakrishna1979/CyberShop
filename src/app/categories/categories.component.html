@@ -1,0 +1,11 @@
+
+<div class="row"> 
+<ng-container *ngFor="let c of categories$|async; let i=index">
+  <div class="col">
+    <a  routerLink={{c.routeLink}}><img class="card-img-top" [src]="c.imageUrl"></a> <br><br> 
+    <a  routerLink={{c.routeLink}} style="padding-left:80px;"> {{ c.name }} </a><br> <br>
+  </div>
+  <div *ngIf="(i+1) % 3 === 0" class="w-100"></div><br><br>
+</ng-container>
+</div>
+
